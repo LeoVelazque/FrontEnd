@@ -1,0 +1,105 @@
+body{
+    background-image: url(anime-boy-cat-traveling.jpg);
+    background-size: cover cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Verdana;
+    font-family: 'PT Sans';
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0), rgb(66, 66, 66), rgb(49, 49, 49));
+}
+
+#logoYoProgramo {
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#redes {
+    filter: invert();
+    text-align: right;
+    display: inline;
+    padding-left: 2px;
+    border: 2px;
+    margin: 2px;
+}
+
+.logo {
+    padding-right: 25px;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#perfil {
+    width: 23%;
+    height: 300px;
+    min-height: 300px;
+    min-width: 250px;
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    z-index: 3;
+    position: relative;
+
+}
+
+#fotoPerfil {
+    border-radius: 100%;
+    z-index: 3;
+    margin: auto;
+    margin-top: -200px;
+}
+
+#tituloPresentacion {
+    text-align: center;
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+
+#titulo {
+    text-align: center;
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+#contenido {
+    width: 100%;
+    height: auto;
+    background-color: rgb(59, 59, 59);
+    border-radius: 10%;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    padding: auto;
+    padding-bottom: 30px;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+
+#parrafoSobreMi {
+    padding: 10%;
+}
+
+#nombre {
+    font-size: 7vw;
+    color: yellow;
+    margin: auto;
+    margin-top: -100px;
+    text-align: center;
+}
+
+#sobreMi {
+    color: aliceblue;
+    font-size: 20px;
+    margin: auto;
+}
