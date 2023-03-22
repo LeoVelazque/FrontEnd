@@ -11,7 +11,7 @@
     <!--css-->
     <link rel="stylesheet" href="styles.css">
     <!--scrypts-->
-    <link rel="stylesheet" href="scrypts.js">
+    <script src="scrypt.js"></script>
 </head>
 <body>
     <!--header-->
@@ -27,6 +27,23 @@
             </div>
         </div>               
     </div>
+    <label>
+		<input type="checkbox" onchange="mostrarListaDesplegable()">
+        <div id="ayuda">te llevo a alguna parte?
+            has click aqui.
+            <img src="" alt="">
+        </div>
+	</label>
+	<br>
+	<select id="lista-desplegable">
+		<option value="">acerca de</option>
+		<option value="opcion1">experiencia</option>
+		<option value="opcion2">educacion</option>
+		<option value="opcion3">habilidades</option>
+        <option value="opcion3">proyectos</option>
+	</select>
+</body>
+</html>
     <!--/header-->
     
 <!--cuerpo-->
@@ -41,16 +58,6 @@
                     <p id="sobreMi">Me encanta la tecnologia ya que con ella podemos crear y mejorar nuestro entorno, y mis hobbys favoritos dependen de ella!</p>
                     <p id="sobreMi">Convivo con ella a diario, Trabajo en Sistemas y mi meta es llegar a ser desarrollador. </p>
                     <p id="sobreMi">Espero disfruten esta presentacion que con mucho esmero, pude llevar a cabo!</p>
-                </div>
-            </div>
-            <div class=".col col-xs-12 col-sm-12 col-md-3 col-lg-3" id="espacioNavbar">           
-                <div id="navbar" class="position-fixed">
-                    <div class="col"><a href="">inicio</a></div>
-                    <div class="w-100"></div><div class="col"><a href=""> sobre mi</a></div>
-                    <div class="w-100"></div><div class="col"><a href="">experiencia</a></div>
-                    <div class="w-100"></div><div class="col"><a href="">educacion</a></div>                        
-                    <div class="w-100"></div><div class="col"><a href="">habilidades</a></div>
-                    <div class="w-100"></div><div class="col"><a href="">proyectos</a></div>
                 </div>
             </div>
         </div>

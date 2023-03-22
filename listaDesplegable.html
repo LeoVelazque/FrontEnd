@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista desplegable con checkbox</title>
+	<style type="text/css">
+		#lista-desplegable {
+			display: none;
+		}
+	</style>
+	<script type="text/javascript">
+		function mostrarListaDesplegable() {
+			var listaDesplegable = styles.css("lista-desplegable");
+			if (listaDesplegable.style.display === "none") {
+				listaDesplegable.style.display = "block";
+			} else {
+				listaDesplegable.style.display = "none";
+			}
+		}
+	</script>
+</head>
+<body>
+	<label>
+		<input type="checkbox" onchange="mostrarListaDesplegable()"> Mostrar lista desplegable
+	</label>
+	<br>
+	<select id="lista-desplegable">
+		<option value="">Seleccionar una opción</option>
+		<option value="opcion1">Opción 1</option>
+		<option value="opcion2">Opción 2</option>
+		<option value="opcion3">Opción 3</option>
+	</select>
+</body>
+</html>
