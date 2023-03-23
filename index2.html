@@ -27,39 +27,86 @@
             </div>
         </div>               
     </div>
-    <label>
-		<input type="checkbox" onchange="mostrarListaDesplegable()">
-        <div id="ayuda">te llevo a alguna parte?
-            has click aqui.
-            <img src="" alt="">
-        </div>
-	</label>
-	<br>
-	<select id="lista-desplegable">
-		<option value="">acerca de</option>
-		<option value="opcion1">experiencia</option>
-		<option value="opcion2">educacion</option>
-		<option value="opcion3">habilidades</option>
-        <option value="opcion3">proyectos</option>
-	</select>
+    <div id="barraDesplegable">
+        <label>
+		   <input type="checkbox" onchange="mostrarListaDesplegable()" id="checkPc">
+                <div id="ayuda">
+                    <img src="pc soporte.jpeg" alt="pc soporte" id="pc">
+                     te llevo a alguna parte? has click aqui.
+            </div>
+	    </label>
+	    <br>
+	    <select id="lista-desplegable">
+		   <option value="">acerca de</option>
+		   <option value="opcion1"><a href="google.com">experiencia</a> </option>
+		   <option value="opcion2"><a href="">educacion</a> </option>
+		   <option value="opcion3"><a href="">habilidades</a> </option>
+           <option value="opcion3"><a href="">proyectos</a> </option>
+	    </select>
+    </div>
 </body>
 </html>
     <!--/header-->
-    
-<!--cuerpo-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class=".col col-xs-12 col-sm-12 col-md-9 col-lg-9" id="espacioContenido">
-                <div id="contenido">
-                    <h1 id="nombre">Leonardo Velazque</h1>                               
-                    <pan id="titulo">Full Stack Developer Jr.</pan>
-                    <p id="tituloPresentacion">sobre mi:</p>
-                    <p id="sobreMi">Soy una persona que disfruta de probar cosas nuevas, siempre dispuesto a salir de la zona de confort con tal de descubrir y aprender.</p>
-                    <p id="sobreMi">Me encanta la tecnologia ya que con ella podemos crear y mejorar nuestro entorno, y mis hobbys favoritos dependen de ella!</p>
-                    <p id="sobreMi">Convivo con ella a diario, Trabajo en Sistemas y mi meta es llegar a ser desarrollador. </p>
-                    <p id="sobreMi">Espero disfruten esta presentacion que con mucho esmero, pude llevar a cabo!</p>
+    <div class="container-fluid" id="presentacion1"></div>
+        <div id="presentacion">                   
+                <div id="nombre" class="row">
+                    <div class="col col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <img src="perfil_anime.png" alt="Imagen de perfil" id="fotoPerfil">
+                    </div>
+                    <div class="col col-lg-9 col-md-9 col-sm-9 col-xs-12" id="superiorPresentacion">
+                        <h2 id="nombreTitulo">Leonardo Velazque</h2>
+                        <h3 id="carrera">Full Stack Developer Jr.</h3>  
+                        <h2>Sobre mí</h2> 
+                    </div>
+                        <p id="texto">Soy una persona que disfruta de probar cosas nuevas, siempre dispuesto a salir de la zona de confort con tal de descubrir y aprender. 
+                        <p id="texto">Me encanta la tecnologia ya que con ella podemos crear y mejorar nuestro entorno, y mis hobbys favoritos dependen de ella!
+                        </p>
+                        <p id="texto">Convivo con ella a diario, Trabajo en Sistemas y mi meta es llegar a ser desarrollador.</p>
+                        <p id="texto">Espero disfruten esta presentacion que con mucho esmero, pude llevar a cabo!</p>           
+                    </div>
                 </div>
+            </div>    
+        </div>       
+    </div>
+    <!--experiencia-->
+    <div class="container-fluid" id="experiencia">
+        <h1>Experiencia</h1>
+            ------------------------------------------------------------------------------------------------------
+            <div class="row" id="top">
+                <div class="col" class="logo">
+                    <img src="logo supertop.png" alt="logoSuperTop" id="logoSuperTop">
+                </div>
+                 <div class="col" class="empresa">
+                    <h2>Supermercados Top</h2>
+                    <p>Cajero - Repositor</p>
+                </div>
+                <div class="col" class="descripcion">
+                <p>Aprendi de todo, Desde manejar el software de caja, manejar efectivo, utilizar postnet. hasta reponer y dar mantenimiento a las maquinas</p>
+            </div>
+        </div>
+        ------------------------------------------------------------------------------------------------------
+        <div class="row">
+            <div class="col" class="logo">
+
+            </div>
+            <div class="col" class="empresa">
+
+            </div>
+            <div class="col" class="descripcion">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" class="logo">
+
+            </div>
+            <div class="col" class="empresa">
+
+            </div>
+            <div class="col" class="descripcion">
+
             </div>
         </div>
     </div>
+    
 </body>
