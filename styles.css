@@ -157,13 +157,55 @@ body{
     min-height: 500px;
     background-color: rgb(41, 41, 41);
     color: aliceblue;
-    border-radius: 10%;
-    padding-bottom: 15px ;
+    border-radius: 5%;
+    padding-bottom: 10% ;
+    margin: auto;
     margin-top: 3%;
     padding: 1%;
 }
 
 #logoSuperTop {
-    height: 150px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 200px;
 }
 
+#logoArcoiris {
+    width: 100%;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+#logoHomeland {
+    width: 100%;
+    max-width: 150px;
+    min-width: 100px;
+}
+
+#sindicato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoSindicato {
+    width: 100%;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+/*educacion*/
+
+#educacion {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    min-height: 500px;
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    border-radius: 5%;
+    padding-bottom: 10% ;
+    margin: auto;
+    margin-top: 3%;
+    padding: 1%;
+}
